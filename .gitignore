@@ -1,0 +1,22 @@
+# 1. 노드 및 프론트엔드 무시 규칙
+node_modules/
+
+# 2. SQLite Database 파일 무시 (가장 중요!)
+*.db
+practice.db
+
+# 3. 스프링 부트 및 자바 빌드 결과물 무시
+.gradle/
+build/
+bin/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 4. 각종 에디터 설정 무시 (VS Code, IntelliJ 등)
+.vscode/
+.idea/
+*.iml
+
+# 5. OS 임시 파일 무시
+Thumbs.db
+.DS_Store
